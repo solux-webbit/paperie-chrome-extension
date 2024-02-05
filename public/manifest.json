@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Paperie",
   "version": "1.0",
   "description": "Extracts and logs the current tab's URL.",
   "permissions": ["activeTab"],
   
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "images/icon16.png",
       "48": "images/icon48.png",
